@@ -2,7 +2,7 @@ import { OrbitingCircles } from '@/components/ui/orbiting-circles'
 
 export function OrbitingCirclesDemo() {
 	return (
-		<div className="relative mx-auto flex bg-[#131316] w-[409px] h-[409px] h-full  flex-col items-center justify-center overflow-hidden border-2 border-[#404245] rounded-xl shadow-[0px_0px_8px_0px_rgba(255,255,255,0.09)_inset]">
+		<div className="relative mx-auto flex bg-[#131316] w-[409px] h-full  flex-col items-center justify-center overflow-hidden border-2 border-[#404245] rounded-xl shadow-[0px_0px_8px_0px_rgba(255,255,255,0.09)_inset]">
 			<OrbitingCircles radius={150} iconSize={40} speed={0.5}>
 				<Icons.icon1 />
 				<Icons.icon2 />
@@ -26,7 +26,7 @@ const Icons = {
 			viewBox="0 0 56 55"
 			fill="none"
 			className="drop-shadow-sm shadow-black  rounded-full">
-			<g clip-path="url(#clip0_2_2038)">
+			<g clipPath="url(#clip0_2_2038)">
 				<g filter="url(#filter0_f_2_2038)">
 					<rect
 						x="-17.22"
@@ -44,7 +44,7 @@ const Icons = {
 					height="54"
 					rx="27"
 					stroke="white"
-					stroke-opacity="0.04"
+					strokeOpacity="0.04"
 				/>
 			</g>
 			<defs>
@@ -55,8 +55,8 @@ const Icons = {
 					width="99.9933"
 					height="99.9934"
 					filterUnits="userSpaceOnUse"
-					color-interpolation-filters="sRGB">
-					<feFlood flood-opacity="0" result="BackgroundImageFix" />
+					colorInterpolationFilters="sRGB">
+					<feFlood floodOpacity="0" result="BackgroundImageFix" />
 					<feBlend
 						mode="normal"
 						in="SourceGraphic"
@@ -75,10 +75,10 @@ const Icons = {
 					x2="53.2338"
 					y2="5.78003"
 					gradientUnits="userSpaceOnUse">
-					<stop stop-color="#EBCC07" />
-					<stop offset="0.333333" stop-color="#EDC664" />
-					<stop offset="0.666667" stop-color="#FF6200" />
-					<stop offset="1" stop-color="#FF0000" />
+					<stop stopColor="#EBCC07" />
+					<stop offset="0.333333" stopColor="#EDC664" />
+					<stop offset="0.666667" stopColor="#FF6200" />
+					<stop offset="1" stopColor="#FF0000" />
 				</linearGradient>
 				<clipPath id="clip0_2_2038">
 					<rect
@@ -100,7 +100,7 @@ const Icons = {
 			height="56"
 			viewBox="0 0 56 56"
 			fill="none">
-			<g clip-path="url(#clip0_2_2044)">
+			<g clipPath="url(#clip0_2_2044)">
 				<g filter="url(#filter0_f_2_2044)">
 					<rect
 						x="-17.09"
@@ -118,7 +118,7 @@ const Icons = {
 					height="54"
 					rx="27"
 					stroke="white"
-					stroke-opacity="0.04"
+					strokeOpacity="0.04"
 				/>
 			</g>
 			<defs>
@@ -129,8 +129,8 @@ const Icons = {
 					width="99.9945"
 					height="99.9966"
 					filterUnits="userSpaceOnUse"
-					color-interpolation-filters="sRGB">
-					<feFlood flood-opacity="0" result="BackgroundImageFix" />
+					colorInterpolationFilters="sRGB">
+					<feFlood floodOpacity="0" result="BackgroundImageFix" />
 					<feBlend
 						mode="normal"
 						in="SourceGraphic"
@@ -149,10 +149,10 @@ const Icons = {
 					x2="53.3671"
 					y2="7.09344"
 					gradientUnits="userSpaceOnUse">
-					<stop stop-color="#EB0707" />
-					<stop offset="0.333333" stop-color="#64B4ED" />
-					<stop offset="0.666667" stop-color="#E600FF" />
-					<stop offset="1" stop-color="#5500FF" />
+					<stop stopColor="#EB0707" />
+					<stop offset="0.333333" stopColor="#64B4ED" />
+					<stop offset="0.666667" stopColor="#E600FF" />
+					<stop offset="1" stopColor="#5500FF" />
 				</linearGradient>
 				<clipPath id="clip0_2_2044">
 					<rect
@@ -174,7 +174,7 @@ const Icons = {
 			height="56"
 			viewBox="0 0 56 56"
 			fill="none">
-			<g clip-path="url(#clip0_2_2050)">
+			<g clipPath="url(#clip0_2_2050)">
 				<g filter="url(#filter0_f_2_2050)">
 					<rect
 						x="-16.92"
@@ -192,7 +192,7 @@ const Icons = {
 					height="54"
 					rx="27"
 					stroke="white"
-					stroke-opacity="0.04"
+					strokeOpacity="0.04"
 				/>
 			</g>
 			<defs>
@@ -203,8 +203,8 @@ const Icons = {
 					width="99.9845"
 					height="99.9824"
 					filterUnits="userSpaceOnUse"
-					color-interpolation-filters="sRGB">
-					<feFlood flood-opacity="0" result="BackgroundImageFix" />
+					colorInterpolationFilters="sRGB">
+					<feFlood floodOpacity="0" result="BackgroundImageFix" />
 					<feBlend
 						mode="normal"
 						in="SourceGraphic"
@@ -223,10 +223,10 @@ const Icons = {
 					x2="53.5244"
 					y2="7.03668"
 					gradientUnits="userSpaceOnUse">
-					<stop stop-color="#EBCC07" />
-					<stop offset="0.333333" stop-color="#64ED6A" />
-					<stop offset="0.666667" stop-color="#00EAFF" />
-					<stop offset="1" stop-color="#002BFF" />
+					<stop stopColor="#EBCC07" />
+					<stop offset="0.333333" stopColor="#64ED6A" />
+					<stop offset="0.666667" stopColor="#00EAFF" />
+					<stop offset="1" stopColor="#002BFF" />
 				</linearGradient>
 				<clipPath id="clip0_2_2050">
 					<rect
@@ -248,7 +248,7 @@ const Icons = {
 			height="32"
 			viewBox="0 0 31 32"
 			fill="none">
-			<g clip-path="url(#clip0_2_2057)">
+			<g clipPath="url(#clip0_2_2057)">
 				<g filter="url(#filter0_f_2_2057)">
 					<rect
 						x="-7.25"
@@ -266,7 +266,7 @@ const Icons = {
 					height="30"
 					rx="15"
 					stroke="white"
-					stroke-opacity="0.04"
+					strokeOpacity="0.04"
 				/>
 			</g>
 			<defs>
@@ -277,8 +277,8 @@ const Icons = {
 					width="56.9644"
 					height="56.9624"
 					filterUnits="userSpaceOnUse"
-					color-interpolation-filters="sRGB">
-					<feFlood flood-opacity="0" result="BackgroundImageFix" />
+					colorInterpolationFilters="sRGB">
+					<feFlood floodOpacity="0" result="BackgroundImageFix" />
 					<feBlend
 						mode="normal"
 						in="SourceGraphic"
@@ -297,10 +297,10 @@ const Icons = {
 					x2="29.5156"
 					y2="5.49665"
 					gradientUnits="userSpaceOnUse">
-					<stop stop-color="#C2B66D" />
-					<stop offset="0.333333" stop-color="#E3B44D" />
-					<stop offset="0.666667" stop-color="#CCFFEB" />
-					<stop offset="1" stop-color="#AA98D9" />
+					<stop stopColor="#C2B66D" />
+					<stop offset="0.333333" stopColor="#E3B44D" />
+					<stop offset="0.666667" stopColor="#CCFFEB" />
+					<stop offset="1" stopColor="#AA98D9" />
 				</linearGradient>
 				<clipPath id="clip0_2_2057">
 					<rect
@@ -322,7 +322,7 @@ const Icons = {
 			height="32"
 			viewBox="0 0 32 32"
 			fill="none">
-			<g clip-path="url(#clip0_2_2069)">
+			<g clipPath="url(#clip0_2_2069)">
 				<g filter="url(#filter0_f_2_2069)">
 					<rect
 						x="-9.73001"
@@ -340,7 +340,7 @@ const Icons = {
 					height="30"
 					rx="15"
 					stroke="white"
-					stroke-opacity="0.04"
+					strokeOpacity="0.04"
 				/>
 			</g>
 			<defs>
@@ -351,8 +351,8 @@ const Icons = {
 					width="60.7186"
 					height="60.7188"
 					filterUnits="userSpaceOnUse"
-					color-interpolation-filters="sRGB">
-					<feFlood flood-opacity="0" result="BackgroundImageFix" />
+					colorInterpolationFilters="sRGB">
+					<feFlood floodOpacity="0" result="BackgroundImageFix" />
 					<feBlend
 						mode="normal"
 						in="SourceGraphic"
@@ -371,9 +371,9 @@ const Icons = {
 					x2="29.9772"
 					y2="4.12988"
 					gradientUnits="userSpaceOnUse">
-					<stop stop-color="#07EB25" />
-					<stop offset="0.5" stop-color="#ED64E2" />
-					<stop offset="1" stop-color="white" />
+					<stop stopColor="#07EB25" />
+					<stop offset="0.5" stopColor="#ED64E2" />
+					<stop offset="1" stopColor="white" />
 				</linearGradient>
 				<clipPath id="clip0_2_2069">
 					<rect
@@ -395,7 +395,7 @@ const Icons = {
 			height="32"
 			viewBox="0 0 32 32"
 			fill="none">
-			<g clip-path="url(#clip0_2_2069)">
+			<g clipPath="url(#clip0_2_2069)">
 				<g filter="url(#filter0_f_2_2069)">
 					<rect
 						x="-9.73001"
@@ -413,7 +413,7 @@ const Icons = {
 					height="30"
 					rx="15"
 					stroke="white"
-					stroke-opacity="0.04"
+					strokeOpacity="0.04"
 				/>
 			</g>
 			<defs>
@@ -424,8 +424,8 @@ const Icons = {
 					width="60.7186"
 					height="60.7188"
 					filterUnits="userSpaceOnUse"
-					color-interpolation-filters="sRGB">
-					<feFlood flood-opacity="0" result="BackgroundImageFix" />
+					colorInterpolationFilters="sRGB">
+					<feFlood floodOpacity="0" result="BackgroundImageFix" />
 					<feBlend
 						mode="normal"
 						in="SourceGraphic"
@@ -444,9 +444,9 @@ const Icons = {
 					x2="29.9772"
 					y2="4.12988"
 					gradientUnits="userSpaceOnUse">
-					<stop stop-color="#07EB25" />
-					<stop offset="0.5" stop-color="#ED64E2" />
-					<stop offset="1" stop-color="white" />
+					<stop stopColor="#07EB25" />
+					<stop offset="0.5" stopColor="#ED64E2" />
+					<stop offset="1" stopColor="white" />
 				</linearGradient>
 				<clipPath id="clip0_2_2069">
 					<rect

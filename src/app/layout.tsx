@@ -22,7 +22,10 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`${inter.variable} font-inter antialiased bg-[#0F0F10]`}>
+			<body 
+				className={`${inter.variable} font-inter antialiased bg-[#0F0F10]`}
+				suppressHydrationWarning={true}
+			>
 				<Navbar />
 				{children}
 				<Footer />
