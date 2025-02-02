@@ -4,6 +4,7 @@ import './globals.css'
 
 import Navbar from '@/components/navigation/navbar'
 import { Footer } from '@/components/footer'
+import ClientWrapper from '@/components/client-wrapper'
 
 const inter = Inter({
 	variable: '--font-inter',
@@ -21,12 +22,15 @@ export default function RootLayout({
 	children: React.ReactNode
 }>) {
 	return (
-		<html lang="en">
-			<body className={`${inter.variable} font-inter antialiased bg-[#0F0F10]`}>
+		<ClientWrapper>
+			<body 
+				className={`${inter.variable} font-inter antialiased bg-[#0F0F10]`}
+				suppressHydrationWarning
+			>
 				<Navbar />
 				{children}
 				<Footer />
 			</body>
-		</html>
+		</ClientWrapper>
 	)
 }
