@@ -2,7 +2,7 @@ import { OrbitingCircles } from '@/components/ui/orbiting-circles'
 
 export function OrbitingCirclesDemo() {
 	return (
-		<div className="relative mx-auto flex bg-[#131316] w-[409px] h-[409px] h-full  flex-col items-center justify-center overflow-hidden border-2 border-[#404245] rounded-xl shadow-[0px_0px_8px_0px_rgba(255,255,255,0.09)_inset]">
+		<div className="relative mx-auto flex bg-[#131316] w-[409px] h-full  flex-col items-center justify-center overflow-hidden border-2 border-[#404245] rounded-xl shadow-[0px_0px_8px_0px_rgba(255,255,255,0.09)_inset]">
 			<OrbitingCircles radius={150} iconSize={40} speed={0.5}>
 				<Icons.icon1 />
 				<Icons.icon2 />
