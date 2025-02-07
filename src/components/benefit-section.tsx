@@ -101,7 +101,7 @@ const ComplianceTab = () => {
 const SecurityTab = () => {
 	return (
 		<div className="dark w-[1200px] flex justify-center items-center h-[460px] rounded-[13px] bg-[#1A1C1E] py-4">
-			<div className="relative flex size-full max-w-lg items-center justify-center overflow-hidden rounded-lg border bg-background px-40 pb-40 pt-8 md:pb-60 md:shadow-xl border-2 border-[#404245] rounded-xl shadow-[0px_0px_8px_0px_rgba(255,255,255,0.09)_inset]">
+			<div className="relative flex size-full max-w-lg items-center justify-center overflow-hidden rounded-lg bg-background px-40 pb-40 pt-8 md:pb-60 md:shadow-xl border-2 border-[#404245] shadow-[0px_0px_8px_0px_rgba(255,255,255,0.09)_inset]">
 				<span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
 					Globe
 				</span>
